@@ -1,0 +1,69 @@
+{
+	"appID": "18258",
+	"version":"1.0.0.0",
+	"use_sdk":{
+		"minSdkVersion" : "1.0.0.0"
+	},
+	"application":	{
+		"name":"@com.XXX.space_shooter",
+		"icon":"SpaceShooter.png",
+		"description":"@antestapp",
+		"properties":[
+			"SinglePlayer",
+			"RuyiAchievements"
+		],
+		"platform":[
+			"RuyiConsole",
+			"Windows"
+		],
+		"size":12580,
+		"languages":[
+			{
+				"languageCode":"en-US",
+				"uiInterface":true,
+				"fullAudio":true,
+				"subtitles":true
+			},
+			{
+				"languageCode":"ja-JP",
+				"uiInterface":true,
+				"fullAudio":false,
+				"subtitles":true
+			},
+			{
+				"languageCode":"de-DE",
+				"uiInterface":true,
+				"fullAudio":false,
+				"subtitles":false
+			}
+		],
+		"activity":[
+			{
+				"name":"main",
+				"exePath":"app/sample_unity_simple.exe",
+				"description":"@antestapp"
+			}
+		]
+	},
+	"use_permissions":[
+		{
+			"name":"jade.permission.ACHIEVEMENT"
+		}
+	],
+	"gamedb":{
+        "id": 18258,
+        "name": "sample_unity_simple",
+        "conditions":[
+            {"name": "is-sample_unity_simple.exe-present", "type": "ExePresent", "additionalArg": "sample_unity_simple.exe"}
+        ],
+        "detection": [
+            {"name": "sample_unity_simple", "order": "1", "rules": [
+                {"cond": "is-sample_unity_simple.exe-present"}
+            ]}
+        ],
+        "runtime": {
+            "features":{},
+            "ruyifeatures":{}
+        }
+    }
+}

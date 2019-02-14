@@ -1,0 +1,12 @@
+{
+  "i18n": {
+    "en-US": {
+      "com.XXX.space_shooter": "Space Shooter",
+      "antestapp": "A description for this App",
+    },
+    "zh-CN": {
+      "com.XXX.space_shooter": "太空射手",
+      "antestapp": "这个游戏的描述",
+    }
+  }
+}
