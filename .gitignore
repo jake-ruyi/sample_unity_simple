@@ -1,3 +1,16 @@
 # Unity3d
 Library/
 Temp/
+Logs/
+Packages/
+/*.csproj
+/*.sln
+
+# Visual Studio
+obj/
+.vs/
+
+# Build
+pack/app/
+pack/file.sync
+pack/IntegrityInfo.json
